@@ -1,0 +1,51 @@
+/* body{
+    background: url('../img/background.webp');
+    background-size: cover;
+} */
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#header h1{
+    color: #fff;
+}
+
+img{
+    width: 300px;
+    height: 300px
+}
+
+a{
+    text-decoration: none !important;
+    border-radius: 3px;
+    border: 2px solid #fff;
+    padding: 8px 15px;
+    /* background-color: rgb(56, 129, 255); */
+    color: #fff !important;
+}
+#header h1{
+    font-size: 3em !important;
+    /* animation: color-change 1s infinite; */
+}
+/*
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+  } */
